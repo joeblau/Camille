@@ -8,7 +8,6 @@ build/
 
 # TypeScript build artifacts
 *.tsbuildinfo
-*.d.ts
 
 # Cloudflare Workers specific files
 .wrangler/
@@ -58,5 +57,4 @@ yarn.lock
 package-lock.json
 pnpm-lock.yaml
 camille-bot/.dev.vars
-camille-bot/wrangler.toml
 camille-bot/wrangler.dev.toml

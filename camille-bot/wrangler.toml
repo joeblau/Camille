@@ -1,11 +1,8 @@
-name = ""
+#:schema node_modules/wrangler/config-schema.json
+name = "camile-bot"
 main = "src/index.ts"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
-
-[vars]
-API_HOST = "your_api_host"
-SLACK_COMMUNITY_ID = "your_community_id"
 
 [[kv_namespaces]]
 binding = "kv"

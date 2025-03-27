@@ -10,7 +10,8 @@
     "setup-dev-kv": "./scripts/setup-dev-kv.sh",
     "deploy": "wrangler deploy",
     "format": "prettier --write \"src/**/*.ts\"",
-    "test": "jest"
+    "test": "jest",
+    "prod-secrets": "npx wrangler secret bulk .dev.vars"
   },
   "keywords": [],
   "author": "",
